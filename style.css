@@ -39,4 +39,27 @@ html {
 }
 #main header .bottom img {
   width: 80%;
+}
+#main .hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+  width: 100%;
+  padding: 2rem;
+  background: linear-gradient(to bottom, #F3FCFF, #FBE2EC);
+}
+#main .hero-section img {
+  width: 100%;
+}
+#main .hero-section h1 {
+  padding: 1rem;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 0.99;
+}
+#main .hero-section p {
+  font-size: 1.8rem;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
