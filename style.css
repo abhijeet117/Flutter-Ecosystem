@@ -12,9 +12,31 @@ html, body {
 html {
   font-family: "Poppins", sans-serif;
   background-color: #FFFFFF;
-  color: #000000;
+  color: #201212;
 }
 
 #main {
   width: 100%;
+}
+#main header {
+  width: 100%;
+}
+#main header .upper {
+  padding: 1rem;
+  background: linear-gradient(to right, #3166F9, #7346F4);
+}
+#main header .upper p {
+  font-size: 0.85rem;
+  color: #FFFFFF;
+  font-weight: 600;
+  text-align: center;
+}
+#main header .bottom {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#main header .bottom img {
+  width: 80%;
 }/*# sourceMappingURL=style.css.map */
