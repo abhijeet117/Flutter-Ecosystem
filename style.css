@@ -152,4 +152,12 @@ html {
   #main .container .section1 .card .upper p {
     font-size: 1.3rem;
   }
+  #main .container .section2 {
+    width: 100%;
+  }
+  #main .container .section2 img {
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }/*# sourceMappingURL=style.css.map */
