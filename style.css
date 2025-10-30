@@ -108,6 +108,60 @@ html {
   -o-object-fit: cover;
      object-fit: cover;
 }
+#main .container .section2 {
+  display: flex;
+  flex-direction: column;
+}
+#main .container .section2 img {
+  width: 100%;
+}
+#main .container .section2 .bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+#main .container .section2 .bottom .first {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+#main .container .section2 .bottom .first h4 {
+  color: #4A4A4A;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+#main .container .section2 .bottom .first h3 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+#main .container .section2 .bottom .first p {
+  font-size: 1.15rem;
+  font-weight: 0.9;
+  line-height: 1.5;
+}
+#main .container .section2 .bottom .second {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+#main .container .section2 .bottom .second .btn1 {
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 1px solid #0468D7;
+  padding: 0.6rem;
+  border-radius: 2rem;
+  background: transparent;
+}
+#main .container .section2 .bottom .second .btn1 h4 {
+  font-size: 1.1rem;
+  color: #3166F9;
+}
+#main .container .section2 .bottom .second .btn2 {
+  width: -moz-fit-content;
+  width: fit-content;
+  border: none;
+  font-weight: 600;
+}
 
 @media (min-width: 900px) {
   #main .hero-section {
@@ -154,6 +208,7 @@ html {
   }
   #main .container .section2 {
     width: 100%;
+    flex-direction: row-reverse;
   }
   #main .container .section2 img {
     width: 100%;
