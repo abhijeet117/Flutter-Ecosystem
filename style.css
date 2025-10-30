@@ -161,6 +161,7 @@ html {
   width: fit-content;
   border: none;
   font-weight: 600;
+  background: transparent;
 }
 
 @media (min-width: 900px) {
@@ -209,10 +210,22 @@ html {
   #main .container .section2 {
     width: 100%;
     flex-direction: row-reverse;
+    align-items: center;
   }
   #main .container .section2 img {
     width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
+  }
+  #main .container .section2 .bottom .first h3 {
+    font-size: 4rem;
+  }
+  #main .container .section2 .bottom .first p {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+  }
+  #main .container .section2 .bottom .second {
+    flex-direction: row;
+    gap: 1rem;
   }
 }/*# sourceMappingURL=style.css.map */

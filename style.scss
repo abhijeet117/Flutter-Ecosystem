@@ -203,6 +203,7 @@ html{
                         width: fit-content;
                         border: none;
                         font-weight: 600;
+                        background: transparent;
                     }
                 }
             }
@@ -274,11 +275,33 @@ html{
             .section2{
                 width: 100%;
                 flex-direction: row-reverse;
+                align-items: center;
 
                 img{
                     width: 100%;
                     object-fit: cover;
                 }
+
+                .bottom{
+                    .first{
+                        h3{
+                            font-size: 4rem;
+                        }
+
+                        p{
+                            padding: 0.5rem;
+                            font-size: 1.5rem;
+
+                        }
+                    }
+
+                    .second{
+                        flex-direction: row;
+                        gap: 1rem;
+                    }
+                }
+
+                
             }
         }
 
