@@ -216,6 +216,7 @@ html{
             display: flex;
             gap: 2rem;
 
+
             .bottom{
                 .first{
                     h3{
@@ -238,6 +239,8 @@ html{
             }
             
         }
+
+
 
 
     }
@@ -312,8 +315,11 @@ html{
                 flex-direction: row-reverse;
                 align-items: center;
 
+                
+
                 img{
                     width: 80%;
+                    
                     object-fit: cover;
                 }
 
@@ -342,6 +348,8 @@ html{
             .section3{
                 flex-direction: row;
                 gap: 3rem;
+
+                
             }
 
 
