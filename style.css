@@ -77,6 +77,9 @@ html {
 #main .container {
   width: 100%;
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
 }
 #main .container .section1 {
   margin-top: 2rem;
@@ -108,43 +111,43 @@ html {
   -o-object-fit: cover;
      object-fit: cover;
 }
-#main .container .section2 {
+#main .container .common {
   display: flex;
   flex-direction: column;
 }
-#main .container .section2 img {
+#main .container .common img {
   width: 100%;
 }
-#main .container .section2 .bottom {
+#main .container .common .bottom {
   display: flex;
   flex-direction: column;
   gap: 1.4rem;
 }
-#main .container .section2 .bottom .first {
+#main .container .common .bottom .first {
   display: flex;
   flex-direction: column;
   gap: 0.8rem;
 }
-#main .container .section2 .bottom .first h4 {
+#main .container .common .bottom .first h4 {
   color: #4A4A4A;
   font-size: 1.2rem;
   font-weight: 500;
 }
-#main .container .section2 .bottom .first h3 {
+#main .container .common .bottom .first h3 {
   font-size: 3rem;
   font-weight: 600;
 }
-#main .container .section2 .bottom .first p {
+#main .container .common .bottom .first p {
   font-size: 1.15rem;
   font-weight: 0.9;
   line-height: 1.5;
 }
-#main .container .section2 .bottom .second {
+#main .container .common .bottom .second {
   display: flex;
   flex-direction: column;
   gap: 1.4rem;
 }
-#main .container .section2 .bottom .second .btn1 {
+#main .container .common .bottom .second .btn1 {
   width: -moz-fit-content;
   width: fit-content;
   border: 1px solid #0468D7;
@@ -152,16 +155,30 @@ html {
   border-radius: 2rem;
   background: transparent;
 }
-#main .container .section2 .bottom .second .btn1 h4 {
+#main .container .common .bottom .second .btn1 h4 {
   font-size: 1.1rem;
   color: #3166F9;
 }
-#main .container .section2 .bottom .second .btn2 {
+#main .container .common .bottom .second .btn2 {
   width: -moz-fit-content;
   width: fit-content;
   border: none;
   font-weight: 600;
   background: transparent;
+}
+#main .container .section3 {
+  display: flex;
+  gap: 2rem;
+}
+#main .container .section3 .bottom .first h3 {
+  line-height: 1;
+  font-size: 2.8rem;
+}
+#main .container .section3 .bottom .second .btn1 {
+  background-color: #0468D7;
+}
+#main .container .section3 .bottom .second .btn1 h4 {
+  color: #E8EAED;
 }
 
 @media (min-width: 900px) {
@@ -207,25 +224,29 @@ html {
   #main .container .section1 .card .upper p {
     font-size: 1.3rem;
   }
-  #main .container .section2 {
+  #main .container .common {
     width: 100%;
     flex-direction: row-reverse;
     align-items: center;
   }
-  #main .container .section2 img {
-    width: 100%;
+  #main .container .common img {
+    width: 80%;
     -o-object-fit: cover;
        object-fit: cover;
   }
-  #main .container .section2 .bottom .first h3 {
+  #main .container .common .bottom .first h3 {
     font-size: 4rem;
   }
-  #main .container .section2 .bottom .first p {
+  #main .container .common .bottom .first p {
     padding: 0.5rem;
     font-size: 1.5rem;
   }
-  #main .container .section2 .bottom .second {
+  #main .container .common .bottom .second {
     flex-direction: row;
     gap: 1rem;
+  }
+  #main .container .section3 {
+    flex-direction: row;
+    gap: 3rem;
   }
 }/*# sourceMappingURL=style.css.map */
