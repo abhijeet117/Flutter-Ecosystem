@@ -38,7 +38,7 @@ html {
   justify-content: space-between;
 }
 #main header .bottom img {
-  width: 80%;
+  width: 100%;
 }
 #main .hero-section {
   background: linear-gradient(to bottom, #F3FCFF, #FAE1EB);
@@ -168,7 +168,7 @@ html {
 }
 #main .container .section3 {
   display: flex;
-  gap: 2rem;
+  background: linear-gradient(to right, #FCFCE2, #F6FBF9);
 }
 #main .container .section3 .bottom .first h3 {
   line-height: 1;
@@ -179,6 +179,14 @@ html {
 }
 #main .container .section3 .bottom .second .btn1 h4 {
   color: #E8EAED;
+}
+#main .container .section4 img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#main .container .section4 .bottom .first h3 {
+  line-height: 1;
 }
 
 @media (min-width: 900px) {
@@ -230,7 +238,7 @@ html {
     align-items: center;
   }
   #main .container .common img {
-    width: 80%;
+    width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
   }
@@ -248,5 +256,29 @@ html {
   #main .container .section3 {
     flex-direction: row;
     gap: 3rem;
+    width: 100%;
+    justify-content: space-evenly;
+    /* img, .bottom{
+        width: 40%; */
+  }
+  #main .container .section3 img {
+    width: 40%;
+  }
+  #main .container .section3 .bottom .first .h3 {
+    font-size: 2rem;
+  }
+  #main .container .section3 .bottom .first p {
+    font-size: 1.4rem;
+  }
+  #main .container .section4 {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #main .container .section4 img, #main .container .section4 .bottom {
+    width: 40%;
+  }
+  #main .container .section4 img {
+    width: 40%;
   }
 }/*# sourceMappingURL=style.css.map */
