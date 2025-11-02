@@ -160,7 +160,7 @@ html{
             .bottom{
                 display: flex;
                 flex-direction: column;
-                gap: 1.4rem;
+                gap: 2rem;
 
                 .first{
                     @include flex-centerY();
@@ -255,6 +255,34 @@ html{
                     }
                 }
             }
+        }
+
+        .section5{
+            display: flex;
+            background: linear-gradient(to right, #FCFCE2, #F6FBF9);
+
+
+            .bottom{
+                .first{
+                    h3{
+                        line-height: 1;
+                        font-size: 2.8rem;
+                    }
+                }
+                .second{
+                    .btn1{
+                        
+                        background-color: #0468D7;
+
+                        h4{
+                            color: #E8EAED;
+                            
+                        }
+                    }
+                }  
+
+            }
+            
         }
 
 
@@ -414,9 +442,11 @@ html{
                 }
 
                 .bottom{
+                    padding: 3rem;
                     .first{
-                        .h3{
-                            font-size: 2rem;
+                        h3{
+                            
+                            font-size: 3.8rem;
                         }
 
                         p{

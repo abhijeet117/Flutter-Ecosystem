@@ -121,7 +121,7 @@ html {
 #main .container .common .bottom {
   display: flex;
   flex-direction: column;
-  gap: 1.4rem;
+  gap: 2rem;
 }
 #main .container .common .bottom .first {
   display: flex;
@@ -187,6 +187,20 @@ html {
 }
 #main .container .section4 .bottom .first h3 {
   line-height: 1;
+}
+#main .container .section5 {
+  display: flex;
+  background: linear-gradient(to right, #FCFCE2, #F6FBF9);
+}
+#main .container .section5 .bottom .first h3 {
+  line-height: 1;
+  font-size: 2.8rem;
+}
+#main .container .section5 .bottom .second .btn1 {
+  background-color: #0468D7;
+}
+#main .container .section5 .bottom .second .btn1 h4 {
+  color: #E8EAED;
 }
 
 @media (min-width: 900px) {
@@ -290,8 +304,11 @@ html {
   #main .container .section5 img {
     width: 40%;
   }
-  #main .container .section5 .bottom .first .h3 {
-    font-size: 2rem;
+  #main .container .section5 .bottom {
+    padding: 3rem;
+  }
+  #main .container .section5 .bottom .first h3 {
+    font-size: 3.8rem;
   }
   #main .container .section5 .bottom .first p {
     font-size: 1.4rem;
