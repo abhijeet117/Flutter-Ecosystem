@@ -281,4 +281,19 @@ html {
   #main .container .section4 img {
     width: 40%;
   }
+  #main .container .section5 {
+    flex-direction: row;
+    gap: 3rem;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  #main .container .section5 img {
+    width: 40%;
+  }
+  #main .container .section5 .bottom .first .h3 {
+    font-size: 2rem;
+  }
+  #main .container .section5 .bottom .first p {
+    font-size: 1.4rem;
+  }
 }/*# sourceMappingURL=style.css.map */

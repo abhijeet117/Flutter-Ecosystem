@@ -402,7 +402,34 @@ html{
                 }
             }
 
-            
+            .section5{
+                flex-direction: row;
+                gap: 3rem;
+                width: 100%;
+                justify-content: space-evenly;
+                
+                
+                    img{
+                    width: 40%;
+                }
+
+                .bottom{
+                    .first{
+                        .h3{
+                            font-size: 2rem;
+                        }
+
+                        p{
+                            font-size: 1.4rem;
+                        }
+                    }
+                }
+                
+
+                
+            }
+
+
 
 
         }
