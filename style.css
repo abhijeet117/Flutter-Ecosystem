@@ -202,6 +202,25 @@ html {
 #main .container .section5 .bottom .second .btn1 h4 {
   color: #E8EAED;
 }
+#main .container .section6 {
+  width: 100%;
+}
+#main .container .section6 .wrapper {
+  padding: 6rem;
+  width: 100%;
+  background-image: url(./assets/section6.png);
+  background-color: #042449;
+  background-size: cover;
+  color: #F3FCFF;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  border-radius: 2rem;
+  font-weight: 300;
+}
+#main .container .section6 .wrapper h1 {
+  font-size: 1.8rem;
+}
 @media (min-width: 900px) {
   #main .hero-section {
     padding: 10rem;
