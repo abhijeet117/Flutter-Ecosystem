@@ -285,7 +285,7 @@ html {
           font-weight: 600;
         }
         h3 {
-            font-size: 0.95rem;
+          font-size: 0.95rem;
           font-weight: 400;
         }
 
@@ -307,13 +307,41 @@ html {
             font-size: 0.8rem;
             font-weight: 600;
           }
-
-
         }
       }
     }
+  }
 
-    
+  footer {
+    background-color: #f8f9fa;
+    padding: 3rem;
+    .upper {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+
+      .right{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        .first,
+      .second,
+      .third {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        h3{
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        a{
+            opacity: 0.8;
+        }
+      }
+      }
+    }
   }
 }
 
@@ -467,8 +495,6 @@ html {
 
       .section6 {
         .wrapper {
-          
-
           h1 {
             font-size: 3.5rem;
           }
@@ -480,6 +506,35 @@ html {
       }
     }
 
+    footer{
+        .upper{
+            flex-direction: row;
+            justify-content: space-between;
 
+            .left{
+                padding: 3rem;
+            }
+
+            .right{               
+                flex-direction: row;
+                margin-right: 4rem;
+
+                .first, .second, .third{
+                    padding: 3rem;
+                    h3{
+                        font-size: 1.1rem;
+                        font-weight: 600
+                    }
+
+                    a{
+                        color: #4A4A4A;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+        
+    }
   }
 }

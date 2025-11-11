@@ -245,6 +245,38 @@ html {
   font-size: 0.8rem;
   font-weight: 600;
 }
+#main footer {
+  background-color: #f8f9fa;
+  padding: 3rem;
+}
+#main footer .upper {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+#main footer .upper .right {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+#main footer .upper .right .first,
+#main footer .upper .right .second,
+#main footer .upper .right .third {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+#main footer .upper .right .first h3,
+#main footer .upper .right .second h3,
+#main footer .upper .right .third h3 {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+#main footer .upper .right .first a,
+#main footer .upper .right .second a,
+#main footer .upper .right .third a {
+  opacity: 0.8;
+}
 
 @media (min-width: 900px) {
   #main .hero-section {
@@ -362,5 +394,27 @@ html {
   }
   #main .container .section6 .wrapper h3 {
     font-size: 1.1rem;
+  }
+  #main footer .upper {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #main footer .upper .left {
+    padding: 3rem;
+  }
+  #main footer .upper .right {
+    flex-direction: row;
+    margin-right: 4rem;
+  }
+  #main footer .upper .right .first, #main footer .upper .right .second, #main footer .upper .right .third {
+    padding: 3rem;
+  }
+  #main footer .upper .right .first h3, #main footer .upper .right .second h3, #main footer .upper .right .third h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  #main footer .upper .right .first a, #main footer .upper .right .second a, #main footer .upper .right .third a {
+    color: #4A4A4A;
+    opacity: 1;
   }
 }/*# sourceMappingURL=style.css.map */
