@@ -346,6 +346,9 @@ html {
     .lower{
         padding: 1.5rem;
         margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
             .first{
                 display: flex;
                 flex-direction: column;
@@ -372,7 +375,28 @@ html {
                 }
             }
 
-            
+            .second{
+                display: flex;
+                flex-direction: column;
+                gap: 1.5rem;
+                
+                .top{
+                    p{
+                        font-size: 0.85rem;
+                        text-align: center;
+                        line-height: 1.2;
+                    }
+                }
+
+                .bottom{
+                    display: flex;
+                    justify-content: center;
+                    gap: 1rem;
+                    font-size: 0.9rem;
+                }
+            }
+
+
         }
   }
 }
@@ -567,9 +591,31 @@ html {
         }
 
         .lower {
+
+           
+            
             .first{
                 .icons{
                     justify-content: start;
+                }
+            }
+
+            .second{
+                flex-direction: row;
+                justify-content: space-between;
+
+                .top{
+                    
+                    p{
+                        font-size: 0.9rem;
+                        text-align: start;
+                    }
+                }
+
+                .bottom{
+                    a{
+                        opacity: 0.9;
+                    }
                 }
             }
         }
