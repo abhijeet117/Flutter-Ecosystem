@@ -277,6 +277,30 @@ html {
 #main footer .upper .right .third a {
   opacity: 0.8;
 }
+#main footer .lower {
+  padding: 1.5rem;
+  margin-top: 5rem;
+}
+#main footer .lower .first {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+}
+#main footer .lower .first .icons {
+  font-size: 1.5rem;
+  display: flex;
+  gap: 0.6rem;
+  justify-content: center;
+}
+#main footer .lower .first .icons i {
+  color: #4A4A4A;
+}
+#main footer .lower .first .line {
+  width: 100%;
+  background-color: #DADCE0;
+  height: 0.1rem;
+}
 
 @media (min-width: 900px) {
   #main .hero-section {
@@ -416,5 +440,8 @@ html {
   #main footer .upper .right .first a, #main footer .upper .right .second a, #main footer .upper .right .third a {
     color: #4A4A4A;
     opacity: 1;
+  }
+  #main footer .lower .first .icons {
+    justify-content: start;
   }
 }/*# sourceMappingURL=style.css.map */

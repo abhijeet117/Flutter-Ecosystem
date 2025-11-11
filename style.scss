@@ -342,6 +342,38 @@ html {
       }
       }
     }
+
+    .lower{
+        padding: 1.5rem;
+        margin-top: 5rem;
+            .first{
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                justify-content: center;
+
+                .icons{
+                    font-size: 1.5rem;
+                    display: flex;                    
+                    gap: 0.6rem;
+                    justify-content: center;
+
+                    i{
+                        color: #4A4A4A;
+                    }
+
+                }
+
+                .line{
+                    width: 100%;
+                    background-color: #DADCE0;
+                    height: 0.1rem;
+
+                }
+            }
+
+            
+        }
   }
 }
 
@@ -530,6 +562,14 @@ html {
                         color: #4A4A4A;
                         opacity: 1;
                     }
+                }
+            }
+        }
+
+        .lower {
+            .first{
+                .icons{
+                    justify-content: start;
                 }
             }
         }
